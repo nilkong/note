@@ -3,17 +3,17 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Chilfox",
+    pageTitle: "NIL",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "umami",
-      websiteId: "3ad9fe4e-d5a8-4a04-9916-4e99f761b144",
+      websiteId: "fd422876-5521-46fb-acb6-4aa2b7168056",
       host: "https://cloud.umami.is",
     },
     locale: "zh-TW",
-    baseUrl: "chilfox.github.io/digital-garden",
+    baseUrl: "nilkong.github.io/note",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
