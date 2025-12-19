@@ -1,3 +1,3 @@
-# 👋 Welcome
+# Hi
 
-This is my digital garden built with Quartz 4
+This is a README.md
