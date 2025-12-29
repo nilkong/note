@@ -1,5 +1,5 @@
 ---
-title: NIL's note
+title: NiL's note
 ---
 # Course
 
