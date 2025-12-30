@@ -86,3 +86,17 @@ tags:
 > 5. Distributed Training
 
 - [[D-DL4CV-Lec11-TrainingNeuralNetworksII]]
+
+---
+# RNN and Transformers
+## Lecture 12: Recurrent Neural Network
+
+> This lecture introduce RNN, which is a kind of neural network that can deal with tasks where context and order of data matters. For example, speech understanding and stock price prediction over time
+
+- [[D-DL4CV-Lec12-RecurrentNeuralNetwork]]
+
+## Lecture 13: Transformers
+
+> This lecture we start from the concept "attention", which resolve the bottleneck problem in sequence to sequence. After that, we extend the to a new kind of layer, "attention layer", which is a crucial part of the "transformer"
+
+- [[D-DL4CV-Lec13-Transformers]]
