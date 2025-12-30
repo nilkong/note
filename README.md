@@ -1,3 +1,3 @@
-# Hi
+# NiL's Notes Collection
 
-This is a README.md
+Please leave a ⭐ if you think it's helpful!
