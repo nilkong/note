@@ -100,3 +100,17 @@ tags:
 > This lecture we start from the concept "attention", which resolve the bottleneck problem in sequence to sequence. After that, we extend the to a new kind of layer, "attention layer", which is a crucial part of the "transformer"
 
 - [[D-DL4CV-Lec13-Transformers]]
+
+---
+# Other Computer Vision Tasks
+## Lecture 14: Visualizing and Understanding
+
+> This lecture we try to figure out what is actually happening in neural networks, and how do we use these findings to create interesting applications
+
+- [[D-DL4CV-Lec14-Visualizaing_and_Understanding]]
+
+## Lecture 15: Object Detection
+
+> This lecture introduces object detection, a computer vision task that detects multiple objects in images and encloses them with bounding boxes.
+
+- [[D-DL4CV-Lec15-Object_Detection]]
