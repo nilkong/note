@@ -114,3 +114,9 @@ tags:
 > This lecture introduces object detection, a computer vision task that detects multiple objects in images and encloses them with bounding boxes.
 
 - [[D-DL4CV-Lec15-Object_Detection]]
+
+## Lecture 16: Image Segmentation
+
+> This lecture introduces a new computer vision task - "image segmentation", where we want to classify each pixel in the image to a category
+
+- [[D-DL4CV-Lec16-Image_Segmentation]]
