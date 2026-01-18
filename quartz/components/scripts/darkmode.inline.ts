@@ -1,5 +1,11 @@
 const userPref = window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"
-const currentTheme = localStorage.getItem("theme") ?? userPref
+let currentTheme = localStorage.getItem("theme") ?? userPref
+
+if (currentTheme === "light") {
+  currentTheme = "dark"
+  localStorage.setItem("theme", "dark")
+}
+
 document.documentElement.setAttribute("saved-theme", currentTheme)
 
 const emitThemeChangeEvent = (theme: "light" | "dark") => {
@@ -11,8 +17,14 @@ const emitThemeChangeEvent = (theme: "light" | "dark") => {
 
 document.addEventListener("nav", () => {
   const switchTheme = () => {
-    const newTheme =
-      document.documentElement.getAttribute("saved-theme") === "dark" ? "light" : "dark"
+    const current = document.documentElement.getAttribute("saved-theme")
+    const newTheme = current === "dark" ? "light" : "dark"
+
+    if (newTheme === "light") {
+      alert("偵測到用戶試圖引入邪教力量（Light Mode），已自動阻斷。")
+      return
+    }
+
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)
     emitThemeChangeEvent(newTheme)
@@ -20,6 +32,12 @@ document.addEventListener("nav", () => {
 
   const themeChange = (e: MediaQueryListEvent) => {
     const newTheme = e.matches ? "dark" : "light"
+
+    if (newTheme === "light") {
+      alert("偵測到系統試圖引入邪教力量（Light Mode），已自動阻斷。")
+      return
+    }
+
     document.documentElement.setAttribute("saved-theme", newTheme)
     localStorage.setItem("theme", newTheme)
     emitThemeChangeEvent(newTheme)
