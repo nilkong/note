@@ -120,3 +120,11 @@ tags:
 > This lecture introduces a new computer vision task - "image segmentation", where we want to classify each pixel in the image to a category
 
 - [[D-DL4CV-Lec16-Image_Segmentation]]
+
+## Lecture 17: 3D Vision
+
+> This lecture we focus on two tasks
+> 1. Predicting 3D shapes from single shape
+> 2. Processing 3D input data
+
+- [[D-DL4CV-Lec17-3D_Vision]]
