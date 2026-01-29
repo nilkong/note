@@ -128,3 +128,9 @@ tags:
 > 2. Processing 3D input data
 
 - [[D-DL4CV-Lec17-3D_Vision]]
+
+## Lecture 18: Videos
+
+> This lecture introduces computer vision tasks about videos
+
+- [[D-DL4CV-Lec18-Videos]]
