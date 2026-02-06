@@ -134,3 +134,9 @@ tags:
 > This lecture introduces computer vision tasks about videos
 
 - [[D-DL4CV-Lec18-Videos]]
+
+## Lecture 19: Generative Models I
+
+> This lecture we first explain what is generative models? Then we introduce "Autoregressive Model" and "Variational Autoencoder"
+
+- [[D-DL4CV-Lec19-Generative_Model_I]]
