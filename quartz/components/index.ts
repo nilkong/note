@@ -23,6 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import MetadataTable from "./MetadataTable"
 
 export {
   ArticleTitle,
@@ -48,6 +49,7 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  MetadataTable,
   Flex,
   ConditionalRender,
 }

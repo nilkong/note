@@ -8,13 +8,6 @@ date_end: 2025-08-16
 url: https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/
 tags:
 ---
-# Introduction to the Course
-
-- Name: UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision
-- Lecturer: Justin Johnson
-- Course Website: https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/
-
-> [!note] 注：你可以用反向連結返回上一個筆記
 
 # Linear Classifier Network
 ## Lecture 02: Image Classification
