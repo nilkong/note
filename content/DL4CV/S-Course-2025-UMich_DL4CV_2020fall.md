@@ -140,3 +140,9 @@ tags:
 > This lecture we first explain what is generative models? Then we introduce "Autoregressive Model" and "Variational Autoencoder"
 
 - [[D-DL4CV-Lec19-Generative_Model_I]]
+
+## Lecture 20: Generative Models II (GANs)
+
+> This lecture introduces Generative Adversarial Networks (GANs)
+
+- [[D-DL4CV-Lec20-GANs]]
