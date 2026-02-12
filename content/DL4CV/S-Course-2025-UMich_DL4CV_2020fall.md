@@ -139,3 +139,9 @@ tags:
 > This lecture introduces Generative Adversarial Networks (GANs)
 
 - [[D-DL4CV-Lec20-GANs]]
+
+## Lecture 21: Reinforcement Learning
+
+> This lecture introduces reinforcement learning
+
+- [[D-DL4CV-Lec21-Reinforcement_Learning]] 
